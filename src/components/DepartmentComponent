@@ -1,0 +1,14 @@
+import React, {Component} from 'react'
+import EmployeeComponent from "./EmployeeComponent";
+
+class DepartmentComponent extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            departmentName: '',
+            departmentId: null,
+        }
+    }
+}
+
+export default DepartmentComponent
